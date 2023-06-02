@@ -1,0 +1,18 @@
+create table cars (id integer primary key, model text, quantity integer, price integer, colour integer);
+INSERT INTO cars VALUES (1, "A", 5, 40000,"red"); 
+INSERT INTO cars VALUES (2,"B", 10, 30000, "black"); 
+INSERT INTO cars VALUES (3, "C", 6, 40000, "black"); 
+INSERT INTO cars VALUES (4, "D", 30, 50000, "white");
+INSERT INTO cars VALUES (5, "E", 40, 30000,"black");
+INSERT INTO cars VALUES (6, "F", 50, 40000, "white");
+INSERT INTO cars VALUES (7, "G", 60, 50000, "black");
+INSERT INTO cars VALUES (8, "H", 10, 100000,"black");
+INSERT INTO cars VALUES (9, "I", 30, 100000, "white");
+INSERT INTO cars Values (10, "J", 40, 15000, "white");
+INSERT INTO cars VALUES (11, "K", 30, 15000, "black");
+INSERT INTO cars VALUES (12, "L", 20, 30000, "white");
+INSERT INTO cars VALUES (13, "M", 10, 100000, "blck");
+INSERT INTO cars VALUES (14, "N", 11, 40000, "black");
+INSERT INTO cars VALUES (15, "O", 12, 50000, "white");
+Select * From cars
+order by price desc
