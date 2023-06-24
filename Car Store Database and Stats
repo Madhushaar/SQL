@@ -1,4 +1,7 @@
-create table cars (id integer primary key, model text, quantity integer, price integer, colour integer);
+--Create Car Store Database 
+
+CREATE CAR store (id integer primary key, model text, quantity integer, price integer, colour integer);
+
 INSERT INTO cars VALUES (1, "A", 5, 40000,"red"); 
 INSERT INTO cars VALUES (2,"B", 10, 30000, "black"); 
 INSERT INTO cars VALUES (3, "C", 6, 40000, "black"); 
@@ -14,5 +17,6 @@ INSERT INTO cars VALUES (12, "L", 20, 30000, "white");
 INSERT INTO cars VALUES (13, "M", 10, 100000, "blck");
 INSERT INTO cars VALUES (14, "N", 11, 40000, "black");
 INSERT INTO cars VALUES (15, "O", 12, 50000, "white");
-Select * From cars
-order by price desc
+
+--display the database ordered by price
+ORDER BY price desc
